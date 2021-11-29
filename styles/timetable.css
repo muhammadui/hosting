@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+body {
+  background: rgb(1, 1, 15);
+  color: rgb(247, 238, 238);
+  font-family: "Poppins", sans-serif;
+}
+h2 {
+  padding-bottom: 20px;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid #f8f8f8;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  overflow-x: auto;
+}
+table th,
+td {
+  border: 2px solid #ebe2e2;
+  padding: 10px 20px;
+  text-align: center;
+}
